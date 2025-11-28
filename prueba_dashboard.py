@@ -14,14 +14,14 @@ st.set_page_config(
 )
 
 # Título principal
-st.title("🏭 Dashboard de Optimización Textil - ICATEX")
+st.title("🏭 Dashboard de Optimización Textil - ICAIEX")
 st.markdown("---")
 
 # Cargar datos
 @st.cache_data
 def load_data():
     # Leer todas las hojas del Excel
-    file_path = "ICATEX_Datos_Completos_20Productos.xlsx"
+    file_path = "ICAIEX_Datos_Completos_20Productos.xlsx"
     
     data = {}
     sheets = [
@@ -458,4 +458,5 @@ st.sidebar.info("""
 - 4 años de datos históricos
 - Análisis mensual completo
 """)
+
 
